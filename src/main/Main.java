@@ -15,5 +15,4 @@ public class Main {
         System.out.println("consumo actual red "+ miRed.getConsumoActual());
         System.out.println("es la red estable? "+ (miRed.esEstable()));
     }
-
 }
