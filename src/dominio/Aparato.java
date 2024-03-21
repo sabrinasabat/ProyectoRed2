@@ -7,10 +7,18 @@ public class Aparato { // clase que representa aparato y su funcionalidad basico
     Al hacer una clase final me asegura de que no me equivoque haciendo modificaciones en
     variables que no hace falta modificar = Práctica defensiva */
 
+    //private final String nombre;
+
 
     public Aparato(int consumo){ // constructor de la clase aparato
         this.consumo=consumo;
+    //    this.nombre=nombre;
     } // Constructor
+
+    /*@Override
+    public String toString(){
+        return "Aparato [nombre= "+ nombre + ", consumo= "+ consumo + ", encendido= "+ encendido + "]";
+    }*/
 
     public boolean getEncendido(){ // método para obtener el estado de encendido del aparato
         return encendido; // true si está encendido y false si está apagado
@@ -35,4 +43,7 @@ public class Aparato { // clase que representa aparato y su funcionalidad basico
         }
         return 0; // retorna zero si esta apagado
     }
+
 }
+
+
